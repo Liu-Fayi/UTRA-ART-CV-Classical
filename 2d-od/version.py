@@ -1,3 +1,3 @@
-import cv2 as cv
+import cv2
 
-print(cv.__version__)
+print(cv2.getBuildInformation())
