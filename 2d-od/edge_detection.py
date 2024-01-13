@@ -49,7 +49,7 @@ def combine_images_alpha(front, background):
 def main():
     cv.namedWindow('edge')
 
-    cap = cv.VideoCapture("../20230605_163120.mp4")
+    cap = cv.VideoCapture("../assets/20230605_163120.mp4")
 
     frame_count = cap.get(cv.CAP_PROP_FRAME_COUNT)
     end = False
